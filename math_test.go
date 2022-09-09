@@ -25,3 +25,10 @@ func TestTimes(t *testing.T) {
 		t.Errorf("Resultado da subtração é inválido: Resultado %d. Esperado: %d", total, 15)
 	}
 }
+func TestSumX(t *testing.T) {
+	total := SumX(1, 15)
+
+	if total != 17 {
+		t.Errorf("Resultado da subtração é inválido: Resultado %d. Esperado: %d", total, 17)
+	}
+}
